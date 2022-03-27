@@ -11,6 +11,7 @@
   inputs.src-nimrat-master.ref   = "refs/heads/master";
   inputs.src-nimrat-master.owner = "apense";
   inputs.src-nimrat-master.repo  = "nimrat";
+  inputs.src-nimrat-master.dir   = "";
   inputs.src-nimrat-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
